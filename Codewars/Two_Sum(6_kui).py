@@ -21,6 +21,3 @@ def two_sum(numbers, target):
                 index_last = length - numbers[::-1].index(numbers[j]) - 1
 
                 return [index_first, index_last]
-
-
-print(two_sum([2, 2, 3], 4))
